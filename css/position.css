@@ -1,0 +1,314 @@
+:root {
+    --pink: #e7718b;
+    --head: #26292e;
+    --btn: #26292e;
+    --color: #f4f4f6;
+    --borderpink: #fce3e7;
+    --font: 'Butterfly Kids', cursive;
+    --font-family: 'Open Sans', sans-serif;
+    --font-faimly2: 'Oswald', sans-serif;
+    --grad: radial-gradient( 
+        at top center,
+        white,
+        var(--btn) 40%
+        ); 
+}
+    
+* {box-sizing: border-box;}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+}
+
+a {
+    list-style-type: none;
+}
+
+.inner {
+    margin: 0 auto;
+    width: 90%;
+}
+
+/* -----header------ */
+
+
+.top-header {
+    background-color: var(--head);
+}
+
+.top-header .inner {
+    position: relative;
+    height: 90px;
+    /* border: 1px solid green; */
+}
+
+.h-title, .nav-list {
+    position: absolute;
+    width: 50%;
+}
+
+.h-title {
+    margin-top: 9px;
+    text-transform: capitalize;
+    font-family: var(--font);
+    font-size: 50px;
+    font-weight: 400;
+    color: whitesmoke;
+}
+
+.nav-list {
+    right: 0;
+}
+
+.ul {
+    list-style-type: none;
+    text-align: right;
+    padding-left: 0;
+}
+
+.nav-item {
+    display: inline;
+}
+
+.icon {
+    margin-top: 8px;
+    padding: 4px;
+    width: 40px;
+}
+
+/* --------mian-------- */
+
+.text-div {
+    position: relative;
+    left: 100px;
+    top: 100px;
+}
+
+.content-h2 {
+    position: absolute;
+    bottom: 125px;
+    left: 70px;
+    color: whitesmoke;
+}
+
+.c-text {
+    font-size: 20px;
+    width: 47%;
+    color: #f1b3be;
+}
+
+.top-content {
+    background-color: var(--pink);
+}
+
+.top-content .inner {
+    margin-top: -22px;
+    height: 500px;
+}
+
+.button-div {
+    position: relative;
+}
+
+.button {
+    position: absolute;
+    top: 150px;
+    left: 220px;
+    background-color: var(--btn);
+    color: white;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 10%;
+    text-transform: capitalize;
+}
+
+#button2 {
+    left: 380px;
+}
+
+.labtop-div {
+    position: relative;
+}
+
+.labtop-img {
+    position: absolute;
+    left: 1000px;
+    bottom: 130px;
+    right: 300px;
+    width: 34%;
+}
+
+.content-box {
+    display: inline-block;
+    padding: 32px 20px;
+    /* border: 1px solid red; */
+}
+
+.content-box:first-child {
+    width: 30%;
+    /* border-top: 1px solid #999; */
+}
+
+.content-box:nth-child(2) {
+    width: 30%;
+    /* border-top: 1px solid #999; */
+    /* border-left: 1px solid #999;
+    border-right: 1px solid #999; */
+}
+
+.content-box:nth-child(3) {
+    width: 30%;
+    /* border-top: 1px solid #999; */
+}
+
+.content-section {
+    background-color: var(--color);
+    border-bottom: 5px solid var(--borderpink);
+}
+
+.content-item {
+    list-style-type: none;
+}
+
+.content-text {
+    color: grey;
+}
+
+.product-section .inner {
+    position: relative;
+}
+
+.product-section {
+    height: 500px;
+}
+
+.box-container {
+    /* border: 1px solid purple; */
+    width: 100%;
+    
+}
+
+.boxes {
+    /* border: 2px solid blue; */
+    width: 70%;
+}
+
+.box1 {
+    background-color: var(--btn);
+    height: 150px;
+    width: 35%;
+    border: 8px solid grey;
+    box-shadow: 0 8px 8px 2px gray;
+}
+
+
+.box2 {
+    background-color: var(--btn);
+    height: 150px;
+    width: 35%;
+    border: 8px solid grey;
+    box-shadow: 0 8px 8px 2px gray;
+}
+
+
+.box3 {
+    background-color: var(--btn);
+    height: 150px;
+    width: 28%;
+    border: 8px solid grey;
+    box-shadow: 0 8px 8px 2px gray;
+}
+
+
+.box4 {
+    background-color: var(--btn);
+    height: 150px;
+    width: 28%;
+    border: 8px solid grey;
+    box-shadow: 0 8px 8px 2px gray;
+}
+
+
+#box2 {
+    margin-top: 50px;
+}
+
+#box3 {
+    position: absolute;
+    right: 200px;
+    bottom: 510px;
+    left: 500px;
+}
+
+#box4 {
+    position: absolute;
+    right: 200px;
+    top: 240px;
+    left: 500px;
+}
+
+.product-div {
+    position: relative;
+    left: 950px;
+    bottom: 400px;
+    margin-left: 90px;
+    width: 29%;
+    /* border: 1px solid black; */
+}
+
+.bold {
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------footer------ */
+
+.bottom-section {
+    background-color: var(--head);
+    padding: 20px 0;
+}
+
+.bottom-section .inner {
+    position: relative;
+    top: 10px;
+    height: 90px;
+    border: 1px solid green;
+}
+
+.footer-nav {
+    position: absolute;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.nav-item2 {
+    display: inline;
+
+}
+
+.footer-ul {
+    position: relative;
+    left: 1000px;
+    bottom: 50px;
+    list-style-type: none;
+    text-align: right;
+    padding-left: 0;
+}
+
+.colophon {
+    color: white;
+}
